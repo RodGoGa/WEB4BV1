@@ -1,0 +1,55 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registro - Empresas</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="logo">Bolsa de Trabajo</div>
+                <div class="nav-links">
+                    <a href="index.html">Inicio</a>
+                    <a href="register-solicitante.html">Solicitantes</a>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="form-container">
+                <h1>Registro de <span class="text-enphasis">Empresa</span></h1>
+                <form action="#" method="post">
+                    <label for="nombre-empresa">Nombre de la empresa:</label>
+                    <div class="input-container">
+                        <input type="text" id="nombre-empresa" name="nombre-empresa" placeholder="Ingresa el nombre de tu empresa" required>
+                    </div>
+
+                    <label for="email-empresa">Correo electrónico:</label>
+                    <div class="input-container">
+                        <input type="email" id="email-empresa" name="email-empresa" placeholder="ejemplo@empresa.com" required>
+                    </div>
+
+                    <label for="password-empresa">Contraseña:</label>
+                    <div class="input-container">
+                        <input type="password" id="password-empresa" name="password-empresa" placeholder="Crea una contraseña" required>
+                    </div>
+
+                    <label for="descripcion">Descripción:</label>
+                    <textarea id="descripcion" name="descripcion" placeholder="Escribe una breve descripción de tu empresa..." required></textarea>
+
+                    <div class="form-buttons-container">
+                        <button class="button-y" type="submit">Registrar empresa</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Bolsa de Trabajo - Todos los derechos reservados.</p>
+        </footer>
+
+        <script src="js/main.js"></script>
+    </body>
+    </html>
